@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Afterimage application architecture</title>
+  <desc id="desc">The browser submits film preferences to a Next.js route handler. A server-side agent uses a model provider and catalog tools. Tool results enter a candidate pool, and output validation checks IDs and diversity rules before streaming accepted items to the browser.</desc>
+  <rect width="1200" height="630" fill="#eee8df"/>
+  <g font-family="Arial, sans-serif" fill="#221a18">
+    <text x="55" y="64" font-size="16" letter-spacing="3" fill="#962d40">AFTERIMAGE / SYSTEM OVERVIEW</text>
+    <g fill="none" stroke="#b4a79e" stroke-width="2"><rect x="55" y="220" width="210" height="145" rx="2"/><rect x="345" y="220" width="235" height="145" rx="2"/><rect x="660" y="220" width="220" height="145" rx="2"/><rect x="940" y="120" width="205" height="100" rx="2"/><rect x="940" y="315" width="205" height="100" rx="2"/></g>
+    <g font-size="24"><text x="80" y="261">Browser</text><text x="370" y="261">Next.js API</text><text x="685" y="261">Agent loop</text><text x="965" y="162">Model provider</text><text x="965" y="357">Catalog tools</text></g>
+    <g font-size="16" fill="#695a53"><text x="80" y="298">Film preferences</text><text x="80" y="325">Progress + playlist</text><text x="370" y="298">Validate / rate limit</text><text x="370" y="325">Stream NDJSON</text><text x="685" y="298">Candidate pool</text><text x="685" y="325">ID + diversity checks</text><text x="965" y="191">Fallback / cooldown</text><text x="965" y="386">Known track IDs</text></g>
+    <g fill="none" stroke="#962d40" stroke-width="2"><path d="M265 270h80m-10-6 10 6-10 6M580 270h80m-10-6 10 6-10 6M880 265h25v-95h35m-10-6 10 6-10 6M940 365h-35v-50h-25m10-6-10 6 10 6M660 345v100H160v-80m-6 10 6-10 6 10"/></g>
+    <text x="335" y="477" font-size="16" fill="#962d40">Validated progress and playlist events</text>
+    <path d="M55 525h1090" stroke="#c8bcb1"/>
+    <text x="55" y="565" font-size="16" fill="#695a53">Mechanical grounding constrains accepted track IDs; it does not guarantee explanation accuracy or subjective fit.</text>
+  </g>
+</svg>
